@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="website icon" type="png" href="./img/LogoMightyducks-01.png">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Mighty Ducks Hockey League</title>
+</head>
+
+
+<ul class="nav nav justify-content-end">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./Index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./Abaout_MDHL.html">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./Contact.html">Contact</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./Game_Information.html">Games</a>
+    <li class="nav-item">
+        <a class="nav-link" href="./Rules_of_play_and_policies.html">Rules</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled">Registration</a>
+    </li>
+</ul>
+
+<div class="nav">
+    <h1>Mighty Ducks Hockey League</h1>
+    <figure>
+        <img src="img/LogoMightyducks-01.png" alt="logo" class="logo" height="250" width="250">
+    </figure>
+</div>
+
+
+<body>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="img/design1_image1.jpg" class="d-block w-100" alt="Image1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/hockey3.jpg" class="d-block w-100" alt="Image2">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h2>Registration Form</h2>
+
+        <form action="./show_data.html" method="get">
+            <fieldset>
+                <label for="fname">Player´s First Name:</label>
+                <input type="text" size="25">
+                <label for="lname">Last Name:</label>
+                <input type="text" size="35">
+            </fieldset>
+
+            <fieldset>
+                <label for="saddress">Street Address:</label>
+                <input type="text" size="81">
+            </fieldset>
+
+            <fieldset>
+                <label for="city">City:</label>
+                <input type="text" size="40">
+                <label for="code">Zip Code:</label>
+                <input type="text" size="36">
+            </fieldset>
+
+            <div class="gender">
+                <fieldset>
+                    <label for="date">Birth Day(dd/mm/aaaa):</label>
+                    <input type="date">
+
+                    <label for="">Gender:</label>
+                    <label for="gender">Female:</label>
+                    <input type="checkbox" name="gender" id="female" value="female">
+                    <label for="gender">Male:</label>
+                    <input type="checkbox" name="gender" id="male" value="male">
+                </fieldset>
+            </div>
+
+            <fieldset>
+                <label for="grade">Grade:</label>
+                <input type="checkbox" name="grade" id="preschool" value="pre-school">
+                <label for="grade">Pre-school:</label>
+                <input type="checkbox" name="grade" id="1st" value="1st">
+                <label for="grade">1st:</label>
+                <input type="checkbox" name="grade" id="2nd" value="2nd">
+                <label for="grade">2nd:</label>
+                <input type="checkbox" name="grade" id="3rd" value="3rd">
+                <label for="grade">3rd:</label>
+                <input type="checkbox" name="grade" id="4th" value="4th">
+                <label for="grade">4th:</label>
+                <input type="checkbox" name="grade" id="5th" value="5th">
+                <label for="grade">5th:</label>
+            </fieldset>
+
+            <br>
+            <h6>Which elementary school do you live near?</h6>
+            <br>
+            <h6>Closeest School:</h6>
+            <br>
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="stadium" id="AJ" value="AJ">
+                        <label for="stadium">AJ Katzenmaier</label>
+                    </td>
+                    <td>
+                        <input class="m" type="checkbox" name="stadium" id="MPH" value="MPH">
+                        <label for="stadium">Marjorie P Hart</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="stadium" id="GB" value="GB">
+                        <label for="stadium">Greenbay</label>
+                    </td>
+                    <td>
+                        <input class="m" type="checkbox" name="stadium" id="NE" value="NE">
+                        <label for="stadium">North Elementary</label>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="stadium" id="HAY" value="HAY">
+                        <label for="stadium">Howard A Yeager</label>
+                    </td>
+                    <td>
+                        <input class="m" type="checkbox" name="stadium" id="SE" value="SE">
+                        <label for="stadium">South Elementary</label>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <h6>Uniform Size:</h6>
+            <br>
+
+            <table>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="size" id="YS" value="YS">
+                        <label for="size">Youth Small</label>
+                    </td>
+                    <td>
+                        <input class="ma" type="checkbox" name="size" id="M" value="M">
+                        <label for="size">Medium</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="size" id="YM" value="YM">
+                        <label for="size">Youth Medium</label>
+                    </td>
+                    <td>
+                        <input class="ma" type="checkbox" name="size" id="L" value="L">
+                        <label for="size">Large</label>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="size" id="YL" value="YL">
+                        <label for="size">Youth Large</label>
+                    </td>
+                    <td>
+                        <input class="ma" type="checkbox" name="size" id="EL" value="EL">
+                        <label for="size">Extra-Large</label>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="size" id="S" value="s">
+                        <label for="size">Small</label>
+
+                    </td>
+                </tr>
+
+            </table>
+
+            <br>
+            <h5>Permission to Play</h5>
+
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the "League" accepting the registrant for its hockey
+                programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                employees
+                and associated personnel and volunteers, including the facilities used for practices and games,
+                against
+                any claim by or on behalf of the registrant as a result of the registrant's participation in the
+                programand/orbeing transported to or from MDHL sponsored activities, which transportation
+
+                By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso
+                acknowledge
+                that I have read the cancellation policy and agree to its terms.</p>
+
+            <fieldset>
+                <label for="parent">Parent/GuardianSignature:</label>
+                <input type="text">
+            </fieldset>
+
+            <fieldset>
+                <label for="date">Date:</label>
+                <input type="date">
+            </fieldset>
+
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+
+        </form>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,183 @@
+* {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+h1 {
+    font-style: oblique;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+
+}
+
+.nav-item {
+    margin-top: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h2,
+h3,
+h4,
+h6,
+p {
+    color: white;
+}
+
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+.tabla {
+margin-left: 80px;
+margin-right: 80px;
+margin-bottom: 50px;
+}
+
+.tt {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+ol {
+    color: white;
+    margin-left: 20px;
+}
+
+.t3,
+.p1 {
+    text-align: start;
+}
+
+.letras {
+    list-style-type: lower-alpha;
+}
+
+.box0 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.ta {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.n {
+    margin-bottom: 20px;
+}
+
+.ta2 {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+li {
+    text-align: justify;
+}
+
+.ps1 {
+    text-align: start;
+    text-indent: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+iframe {
+
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.maps {
+    margin-left: 100px;
+}
+
+form {
+    width: 740px;
+    margin-left: 140px;
+  margin-bottom: 50px;
+}
+
+.col-12 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.m{
+    margin-left: 50px;
+}
+
+.ma{
+    margin-left: 66px;
+}
+
+.d-block{
+    height: 550px;
+}
